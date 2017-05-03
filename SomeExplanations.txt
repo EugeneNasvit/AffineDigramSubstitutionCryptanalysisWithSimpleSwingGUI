@@ -4,7 +4,7 @@ So alphabet contains 31 letters, which are numbered alphabetically.
 
 P.S. Here I used meaningful text recognizer that is based on 2 different criteria :
 1)banned digram criterion (based on rule, that some characters combinations are not founded in natural languages)
-2)most frequent digram criteria (researching characters combinations, which often appears in text).
+2)most frequent digram criterion (researching characters combinations, which often appears in text).
 So, as a result most of random texts are rejected by first criterion and some, which remain - are rejected with second criterion.
 Consequently, we get meaningful text.
 
