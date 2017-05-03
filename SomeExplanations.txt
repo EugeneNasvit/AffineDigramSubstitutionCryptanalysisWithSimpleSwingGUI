@@ -1,5 +1,5 @@
 Own texts to encode (and so texts to decode) must be  pre-filtered (without any spaces, punctuation and in lowercase).
-In files to crack, letter "¸" is replaced with letter "å", letter "ú" is replaced with letter "ü".
+In files to crack, letter "Ñ‘" is replaced with letter "Ðµ", letter "ÑŠ" is replaced with letter "ÑŒ".
 So alphabet contains 31 letters, which are numbered alphabetically.
 
 P.S. Here I used meaningful text recognizer that is based on 2 different criteria :
