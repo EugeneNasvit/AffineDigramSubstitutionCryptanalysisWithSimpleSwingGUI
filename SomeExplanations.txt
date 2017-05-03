@@ -1,0 +1,11 @@
+Own texts to encode (and so texts to decode) must be  pre-filtered (without any spaces, punctuation and in lowercase).
+In files to crack, letter "¸" is replaced with letter "å", letter "ú" is replaced with letter "ü".
+So alphabet contains 31 letters, which are numbered alphabetically.
+
+P.S. Here I used meaningful text recognizer that is based on 2 different criteria :
+1)banned digram criterion (based on rule, that some characters combinations are not founded in natural languages)
+2)most frequent digram criteria (researching characters combinations, which often appears in text).
+So, as a result most of random texts are rejected by first criterion and some, which remain - are rejected with second criterion.
+Consequently, we get meaningful text.
+
+P.P.S. File to crack must be in C:\\ and named as text.txt
